@@ -1,0 +1,12 @@
+/** This txt file contains the analysis for the efficiency of two implemented algorithms with Big-O and Big-Omega.
+*@author Jovan George
+*/
+
+1.  Method: public boolean withdraw(double amount) , Location: "SavingsAccount.java"
+
+ Overall, the Big-O, the worst-case time complexity, for this algorithm/method is O(1). This is because there is a fixed number of operations despite changes to the input size. Additionally, all the operations are within simple "if" statements and the arithmetic computations are done in constant time. Also, the method contains a call to the method "applyExcessWithdrawalFee()", and this method is also in O(1) because there are only operations that occur in constant time. The Big-Omega, the best-case time complexity, for this algorithm/method is also Ω(1). This is because regardless of the condition(if or else) that occurs in the method, the time taken will stay the same, making the best-case scenario for time complexity, denoted through Big-Omega, also Ω(1). Therefore, taking into consideration both the Big-O and Big-Omega of this method, the algorithm is efficient, as the worst-case scenario and the best-case scenario both occur in constant time.
+
+
+2. Method: public void applyInterest(), Location: "CheckingAccount.java"
+
+Overall, the Big-O, the worst-case time complexity, for this algorithm/method is O(1). This is because there is a fixed number of operations despite changes to the input size. Additionally, all the operations are either one line arithemtic/assigning operators or print statements, all of which are done in constant time. The Big-Omega, the best-case time complexity, for this algorithm/method is also Ω(1). This is because there are no other conditions present in the method that will affect the time it takes to perform the method's content. The method purely consists of one line statements, so all of these statements will always be performed with a constant time, thereby making the best-case scenario for the time complexity of the method the same as the worst-case scenario, making Big-Omega Ω(1) for this method. Taking into consideration both the Big-O and Big-Omega of this method, the algorithm is efficient, as the worst-case scenario and the best-case scenario both occur in constant time. 
